@@ -1,0 +1,46 @@
+{
+  "name": "monitor-dashboard-react",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@mui/icons-material": "^5.6.1",
+    "@mui/lab": "latest",
+    "@mui/material": "latest",
+    "@mui/styled-engine-sc": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "axios": "^0.26.1",
+    "babel-eslint": "^10.1.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "latest",
+    "recharts": "^2.1.9",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "latest"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "latest"
+  }
+}
