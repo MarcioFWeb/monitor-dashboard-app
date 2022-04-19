@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 
 import { ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
 
+import DashboardIcon from '@mui/icons-material/Dashboard';
 import PeopleIcon from '@mui/icons-material/People';
 import LogoutIcon from '@mui/icons-material/Logout';
 
@@ -22,7 +23,8 @@ function MainListItems(props) {
       <Link to={linkURL} className="menu-item-link">
         <ListItemButton>
           <ListItemIcon>
-            <PeopleIcon />
+          {linkText !== "Usuários" && (<DashboardIcon />)}
+          {linkText === "Usuários" && (<PeopleIcon />)}
           </ListItemIcon>
           <ListItemText primary={linkText} />
         </ListItemButton>
